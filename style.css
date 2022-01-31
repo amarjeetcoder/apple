@@ -1,0 +1,298 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+}
+
+#nav{
+    padding-left: 13%;
+    padding-right: 13%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: whitesmoke;
+    width: 100%;
+    height: 7%;
+    background-color: #333;
+}
+
+#nav a{
+    color: rgb(194, 194, 194);
+    text-decoration: none;
+    font-family: "Product sans";
+    font-size: 12px;
+    
+}
+
+.ri-search-line{
+    color: rgb(194, 194, 194);
+    font-size: 17px;
+}
+
+.ri-shopping-bag-line{
+    color: rgb(194, 194, 194);
+    font-size: 17px;
+}
+
+#nav2{
+    color: rgb(92, 92, 92);
+    font-family: "product sans";
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    display: flex;
+    width: 100%;
+    height: 7%;
+    background-color: rgb(245, 245, 245);
+    font-weight: 500;
+}
+
+#nav2 a{
+    color: rgb(65, 129, 225);
+    margin-left: 3px;
+    text-decoration: none;
+}
+
+#img1{
+    width: 100%;
+    height: 86%;
+    background-image: url(1.jpg);
+    background-position: center;
+    background-size: cover;
+    font-family: "product sans";
+}
+
+#img1details{
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    top: 20%;
+}
+
+#img1details h1{
+    font-size: 55px;
+    font-weight: 550;
+    color: rgb(31, 31, 31);
+}
+
+#img1details h3{
+    font-size: 30px;
+    font-weight: 400;
+    color: #333;
+}
+
+#lb{
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#lb a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(42,143,241);
+}
+
+#main2{
+    width: 100%;
+    height: 100%;
+    background-image: url(2.jpg);
+    background-position: center;
+    background-size: cover;
+    font-family: "product sans";
+}
+
+#strip{
+    width: 100%;
+    height: 2%;
+    background-color: white;
+}
+
+#img2details{
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    top: 110%;
+}
+
+#img2details h1{
+    font-size: 55px;
+    font-weight: 550;
+    color: #fff;
+}
+
+#img2details h3{
+    font-size: 30px;
+    font-weight: 400;
+    color: rgb(253,193,234);
+}
+
+#mb{
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+#mb a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(42,143,241);
+}
+
+#main3{
+    width: 100%;
+    height: 100%;
+    background-image: url(3.jpg);
+    background-position: center;
+    background-size: cover;
+    font-family: "product sans";
+}
+
+#strip{
+    width: 100%;
+    height: 2%;
+    background-color: white;
+}
+
+#img3details{
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    top: 210%;
+}
+
+#img3details h1{
+    font-size: 55px;
+    font-weight: 550;
+    color: #333;
+}
+
+#img3details h3{
+    font-size: 30px;
+    font-weight: 400;
+    color: rgb(100, 100, 100);
+}
+
+#mb{
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+#mb a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(42,143,241);
+}
+
+#main4{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.267);
+}
+
+#firsttwo{
+    width: 100%;
+    height: 98%;
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#left4{
+    position: relative;
+    width: 48%;
+    height: 100%;
+    background-image: url(9.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#right4{
+    position: relative;
+    width: 48%;
+    height: 100%;
+    background-image: url(4.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+#img4details{
+    font-family: "product sans";
+    position: absolute;
+    text-align: center;
+    left: 25%;
+    top: 10%;
+}
+
+#img4details h1{
+    font-size: 45px;
+    font-weight: 550;
+    color: #333;
+}
+
+#img4details h3{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(100, 100, 100);
+}
+
+#img5details{
+    font-family: "product sans";
+    position: absolute;
+    text-align: center;
+    left: 35%;
+    top: 10%;
+}
+
+#img5details h1{
+    font-size: 45px;
+    font-weight: 550;
+    color: #333;
+}
+
+#img5details h3{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(100, 100, 100);
+}
+
+#main5{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(241, 241, 241);
+}
+
+#main5 p{
+    text-align: left;
+    padding-top: 2%;
+    padding-left: 10%;
+    font-family: "product sans";
+    font-size: 14px;
+    color: rgb(88, 88, 88);
+}
+
+#hr{
+    position: absolute;
+    left: 10%;
+    top: 445%;
+    width: 80%;
+    height: 1px;
+    background-color: cadetblue;
+}
